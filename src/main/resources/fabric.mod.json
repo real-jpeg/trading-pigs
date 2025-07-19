@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "tradingpigs",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Wandering Trader Pigmen",
+  "description": "help.",
   "authors": [
-    "Turnip Labs"
+    "kumar"
   ],
   "contact": {
     "homepage": "",
@@ -19,20 +19,20 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
+			"kumar.tradingpigs.TradingPigs"
     ],
 		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"kumar.tradingpigs.TradingPigs"
 		],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"kumar.tradingpigs.TradingPigs"
 		],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+			"kumar.tradingpigs.TradingPigs"
 		]
 	},
   "mixins": [
-      "examplemod.mixins.json"
+		"tradingpigs.mixins.json"
   ],
 
   "depends": {
